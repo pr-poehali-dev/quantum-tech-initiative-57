@@ -3,31 +3,31 @@ import { Badge } from "@/components/ui/badge"
 export const sections = [
   {
     id: 'hero',
-    subtitle: <Badge variant="outline" className="text-white border-white">Продажи открыты</Badge>,
-    title: "Доминируй на сервере.",
+    subtitle: <Badge variant="outline" className="text-white border-white">Haruka Client — доступен</Badge>,
+    title: "Haruka Client.",
     showButton: true,
-    buttonText: 'Купить чит'
+    buttonText: 'Купить Haruka'
   },
   {
     id: 'about',
-    title: 'Почему наш чит?',
-    content: 'Стабильный софт с автообновлениями, незаметный обход анти-читов и поддержка последних версий Minecraft.'
+    title: 'Почему Haruka?',
+    content: 'Стабильный клиент с автообновлениями, незаметный обход анти-читов и поддержка актуальных версий Minecraft.'
   },
   {
     id: 'features',
-    title: 'Что внутри',
-    content: 'KillAura, Fly, Speed, X-Ray, AutoClicker и десятки других функций. Гибкие настройки и удобное меню под любую задачу.'
+    title: 'Возможности',
+    content: 'KillAura, Fly, Speed, X-Ray, AutoClicker и десятки других модулей. Удобное меню, гибкие настройки, красивый интерфейс.'
   },
   {
     id: 'safety',
     title: 'Безопасность',
-    content: 'Защита от бана, чистый код без логгеров и вирусов. Тысячи игроков уже используют наш чит каждый день.'
+    content: 'Обход популярных анти-читов, чистый код без вирусов и логгеров. Тысячи игроков уже доверяют Haruka Client.'
   },
   {
     id: 'buy',
-    title: 'Готов начать?',
-    content: 'Выбери подписку, оплати удобным способом и получи доступ к читу мгновенно. Поддержка 24/7.',
+    title: 'Готов к игре?',
+    content: 'Выбери подписку, оплати удобным способом и получи Haruka Client мгновенно. Поддержка 24/7.',
     showButton: true,
-    buttonText: 'Получить чит'
+    buttonText: 'Получить Haruka'
   },
 ]
