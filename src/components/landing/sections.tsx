@@ -4,29 +4,29 @@ export const sections = [
   {
     id: 'hero',
     subtitle: <Badge variant="outline" className="text-white border-white">Haruka Client — доступен</Badge>,
-    title: "Haruka Client.",
+    title: "Тебя убивают снова и снова.",
     showButton: true,
-    buttonText: 'Купить Haruka'
+    buttonText: 'Узнать решение'
   },
   {
     id: 'about',
-    title: 'Почему Haruka?',
-    content: 'Стабильный клиент с автообновлениями, незаметный обход анти-читов и поддержка актуальных версий Minecraft.'
+    title: 'А что если всё изменить?',
+    content: 'Пока другие умирают — ты побеждаешь. Haruka Client даёт то, чего нет у остальных: точность, скорость и невидимость.'
   },
   {
     id: 'features',
-    title: 'Возможности',
-    content: 'KillAura, Fly, Speed, X-Ray, AutoClicker и десятки других модулей. Удобное меню, гибкие настройки, красивый интерфейс.'
+    title: 'Твоё преимущество.',
+    content: 'KillAura, Fly, Speed, X-Ray, AutoClicker и десятки модулей. Один клиент — и баланс сил меняется навсегда.'
   },
   {
     id: 'safety',
-    title: 'Безопасность',
-    content: 'Обход популярных анти-читов, чистый код без вирусов и логгеров. Тысячи игроков уже доверяют Haruka Client.'
+    title: 'Они не узнают.',
+    content: 'Обход анти-читов, чистый код без вирусов. Тысячи игроков уже играют с Haruka — и остаются невидимыми.'
   },
   {
     id: 'buy',
-    title: 'Готов к игре?',
-    content: 'Выбери подписку, оплати удобным способом и получи Haruka Client мгновенно. Поддержка 24/7.',
+    title: 'Хватит проигрывать.',
+    content: 'Получи Haruka Client прямо сейчас. Оплата за секунды — и ты уже на другой стороне.',
     showButton: true,
     buttonText: 'Получить Haruka'
   },
