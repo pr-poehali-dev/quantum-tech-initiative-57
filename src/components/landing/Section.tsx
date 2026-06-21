@@ -51,7 +51,7 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
                   ? 'border-[#3B82F6] bg-[#3B82F6]/10 shadow-[0_0_24px_#3B82F6aa]'
                   : 'border-white/10 bg-white/5 hover:border-[#3B82F6] hover:bg-[#3B82F6]/10'
                 }`}
-              onClick={() => alert('Оплата скоро будет доступна!')}
+              onClick={() => window.open('https://funpay.com', '_blank')}
             >
               {plan.highlight && (
                 <span className="text-[10px] font-bold text-[#3B82F6] uppercase tracking-widest mb-2">Топ</span>
@@ -74,7 +74,7 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
             variant="outline"
             size="lg"
             className="text-[#3B82F6] bg-transparent border-[#3B82F6] hover:bg-[#3B82F6] hover:text-white transition-colors"
-            onClick={() => alert('Оплата скоро будет доступна!')}
+            onClick={() => window.open('https://funpay.com', '_blank')}
           >
             {buttonText}
           </Button>
