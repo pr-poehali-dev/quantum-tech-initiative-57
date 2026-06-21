@@ -24,6 +24,18 @@ export const sections = [
     content: 'Обход анти-читов, чистый код без вирусов. Тысячи игроков уже играют с Haruka — и остаются невидимыми.'
   },
   {
+    id: 'pricing',
+    title: 'Выбери свой план.',
+    showPricing: true,
+    plans: [
+      { name: 'Сезон', price: '149₽', period: '7 дней' },
+      { name: 'Месяц', price: '299₽', period: '30 дней' },
+      { name: '2 месяца', price: '499₽', period: '60 дней' },
+      { name: '3 месяца', price: '699₽', period: '90 дней', highlight: true },
+      { name: 'Навсегда', price: '1499₽', period: '∞' },
+    ]
+  },
+  {
     id: 'buy',
     title: 'Хватит проигрывать.',
     content: 'Получи Haruka Client прямо сейчас. Оплата за секунды — и ты уже на другой стороне.',
