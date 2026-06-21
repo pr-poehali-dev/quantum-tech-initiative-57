@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge"
 export const sections = [
   {
     id: 'hero',
-    subtitle: <Badge variant="outline" className="text-white border-white">Haruka Client — доступен</Badge>,
+    subtitle: <Badge variant="outline" className="text-white border-white">Avalora Client — доступен</Badge>,
     title: "Тебя убивают снова и снова.",
     showButton: true,
     buttonText: 'Узнать решение'
@@ -11,7 +11,7 @@ export const sections = [
   {
     id: 'about',
     title: 'А что если всё изменить?',
-    content: 'Пока другие умирают — ты побеждаешь. Haruka Client даёт то, чего нет у остальных: точность, скорость и невидимость.'
+    content: 'Пока другие умирают — ты побеждаешь. Avalora Client даёт то, чего нет у остальных: точность, скорость и невидимость.'
   },
   {
     id: 'features',
@@ -21,7 +21,7 @@ export const sections = [
   {
     id: 'safety',
     title: 'Они не узнают.',
-    content: 'Обход анти-читов, чистый код без вирусов. Тысячи игроков уже играют с Haruka — и остаются невидимыми.'
+    content: 'Обход анти-читов, чистый код без вирусов. Тысячи игроков уже играют с Avalora — и остаются невидимыми.'
   },
   {
     id: 'pricing',
@@ -38,8 +38,8 @@ export const sections = [
   {
     id: 'buy',
     title: 'Хватит проигрывать.',
-    content: 'Получи Haruka Client прямо сейчас. Оплата за секунды — и ты уже на другой стороне.',
+    content: 'Получи Avalora Client прямо сейчас. Оплата за секунды — и ты уже на другой стороне.',
     showButton: true,
-    buttonText: 'Получить Haruka'
+    buttonText: 'Получить Avalora'
   },
 ]
