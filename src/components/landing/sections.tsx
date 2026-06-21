@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge"
 export const sections = [
   {
     id: 'hero',
-    subtitle: <Badge variant="outline" className="text-white border-white">Avalora Client — доступен</Badge>,
+    subtitle: <Badge variant="outline" className="text-white border-white">Avalora Client v1.16.5 — доступен</Badge>,
     title: "Тебя убивают снова и снова.",
     showButton: true,
     buttonText: 'Узнать решение'
